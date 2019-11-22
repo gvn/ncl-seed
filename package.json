@@ -1,20 +1,23 @@
 {
   "name": "ncl-seed",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "A seed for Node-based command line tools.",
   "main": "index.js",
   "keywords": [
-    "cli", "boilerplate"
+    "cli",
+    "boilerplate"
   ],
   "author": "@gvn",
   "license": "MIT",
   "dependencies": {
-    "chalk": "^2.1.0",
-    "commander": "^2.9.0",
-    "inquirer": "^3.2.3",
-    "shelljs": "^0.7.8"
+    "chalk": "^3.0.0",
+    "commander": "^4.0.1",
+    "inquirer": "^7.0.0",
+    "shelljs": "^0.8.3"
   },
-  "engines" : { "node" : ">=8" },
+  "engines": {
+    "node": ">=12"
+  },
   "preferGlobal": true,
   "bin": {
     "hello": "./index.js"
